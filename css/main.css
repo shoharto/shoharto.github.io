@@ -1,14 +1,14 @@
-@import "https://fonts.googleapis.com/css?family=Alice|Cutive+Mono|Signika:300";
+@import 'https://fonts.googleapis.com/css?family=Alice|Cutive+Mono|Signika:300';
 
 body {
   width: 600px;
   margin: 0 auto;
   font-size: 18px;
   font-weight: 400;
-  font-family: "Signika", sans-serif;
+  font-family: 'Signika', sans-serif;
 }
 
-@media (max-width: 600px) {
+@media(max-width: 600px) {
   body {
     width: 100%;
     box-sizing: border-box;
@@ -26,7 +26,7 @@ a:visited {
 }
 
 a:hover {
-  color: #c0c0c0;
+  color: #C0C0C0;
 }
 
 p {
@@ -36,7 +36,7 @@ p {
 }
 
 p strong {
-  font-weight: bold;
+    font-weight: bold;
 }
 
 section#header {
@@ -45,32 +45,32 @@ section#header {
 
 section#header h1 {
   text-align: center;
-  font-family: "Alice", cursive;
+  font-family: 'Alice', cursive;
   font-size: 2em;
   margin: 0 0 9px 0;
   font-weight: bold;
 }
 
 section#header h2 {
-  font-family: "Signika", sans-serif;
+  font-family: 'Signika', sans-serif;
   font-size: 1em;
   text-align: center;
   font-weight: bold;
 }
 
 section#header p {
-  text-align: center;
-  margin-top: 5px;
+    text-align: center;
+    margin-top: 5px;
 }
 
 section#header p a {
-  padding: 5px 10px;
-  font-size: 0.9em;
+    padding: 5px 10px;
+    font-size: 0.9em;
 }
 
 section#footer {
-  margin: 40px 0;
-  text-align: center;
+    margin: 40px 0;
+    text-align: center;
 }
 
 section.summary {
@@ -79,15 +79,16 @@ section.summary {
   margin: 0 0 60px 0;
 }
 
-@media (max-width: 600px) {
+@media(max-width: 600px) {
   section.summary {
     padding: 0 0 0 0;
     border-left: 0px solid black;
   }
   .avatar {
-    max-width: 100% !important;
+      max-width: 100% !important;
   }
 }
+
 
 section.summary article {
   margin: 15px 0 0 0;
@@ -95,7 +96,7 @@ section.summary article {
 
 section h2 {
   font-size: 1.3em;
-  font-family: "Alice", cursive;
+  font-family: 'Alice', cursive;
   font-weight: bold;
 }
 
@@ -115,21 +116,20 @@ section article {
 
 section#paginator {
   margin: 0 0 20px 0;
-  font-family: "Alice", cursive;
+  font-family: 'Alice', cursive;
   display: inline-block;
 }
 
-section#paginator a,
-section#paginator span {
-  color: black;
-  float: left;
-  padding: 5px;
-  margin: 0 4px;
-  text-decoration: none;
+section#paginator a, section#paginator span {
+    color: black;
+    float: left;
+    padding: 5px;
+    margin: 0 4px;
+    text-decoration: none;
 }
 
 section#paginator a.selected {
-  color: #c0c0c0;
+    color: #C0C0C0;
 }
 
 #post {
@@ -152,123 +152,120 @@ section#paginator a.selected {
 }
 
 .social-links {
-  font-size: 25px;
+    font-size: 25px;
 }
 
 .social-links a {
-  margin: 0 5px;
+    margin: 0 5px;
 }
 
 .back-link * {
-  margin-top: 1.5em;
-  font-size: 0.8em;
-  font-family: "Alice", cursive;
+    margin-top: 1.5em;
+    font-size: 0.8em;
+    font-family: 'Alice', cursive;
 }
 
-.contact p {
-  font-family: "Signika", sans-serif;
+.contact p{
+    font-family: 'Signika', sans-serif;
 }
 
 img {
-  width: 100%;
+    width: 100%;
 }
 
 code {
-  font-family: "Cutive Mono", monospace;
-  line-height: 1.5;
-  font-size: 0.9em;
+    font-family: 'Cutive Mono', monospace;
+    line-height: 1.5;
+    font-size: 0.9em;
 }
 
 ul {
-  display: block;
-  list-style-type: disc;
-  -webkit-margin-before: 1em;
-  -webkit-margin-after: 1em;
-  -webkit-margin-start: 0px;
-  -webkit-margin-end: 0px;
-  -webkit-padding-start: 40px;
+    display: block;
+    list-style-type: disc;
+    -webkit-margin-before: 1em;
+    -webkit-margin-after: 1em;
+    -webkit-margin-start: 0px;
+    -webkit-margin-end: 0px;
+    -webkit-padding-start: 40px;
 }
 
 li {
-  margin-bottom: 0.4em;
+    margin-bottom: 0.4em;
 }
 
 ul li p {
-  margin: 0;
+    margin: 0;
 }
 
 ul ul {
-  -webkit-margin-before: 0em;
-  -webkit-margin-after: 0em;
-  -webkit-margin-start: 0px;
-  -webkit-margin-end: 0px;
-  -webkit-padding-start: 40px;
+    -webkit-margin-before: 0em;
+    -webkit-margin-after: 0em;
+    -webkit-margin-start: 0px;
+    -webkit-margin-end: 0px;
+    -webkit-padding-start: 40px;
 }
 
 iframe {
-  width: 100%;
+    width: 100%;
 }
 
 .strong {
-  font-weight: bold !important;
+    font-weight: bold !important;
 }
 
 .book {
-  float: left;
-  max-width: 180px;
-  margin: 0 8px 5px 0;
-  border: 1px solid grey;
+    float: left;
+    max-width: 180px;
+    margin: 0 8px 5px 0;
+    border: 1px solid grey;
 }
 
 .avatar {
-  float: left;
-  border-radius: 50%;
-  border: 2px solid grey;
-  max-width: 40%;
-  display: block;
-  vertical-align: middle;
-  height: auto;
-  margin: 0 15px 10px 0;
+    float: left;
+    border-radius: 50%;
+    border: 2px solid grey;
+    max-width: 40%;
+    display: block;
+    vertical-align: middle;
+    height: auto;
+    margin: 0 15px 10px 0;
 }
 
 blockquote {
-  font-style: italic;
-  margin: 0 1em;
-  font-size: 0.8em;
+    font-style: italic;
+    margin: 0 1em;
+    font-size: 0.8em;
 }
 
 table {
-  border-collapse: collapse;
-  border-spacing: 0;
-  empty-cells: show;
-  font-size: 0.9em;
-  width: 100%;
-  margin-bottom: 1.1em;
+    border-collapse: collapse;
+    border-spacing: 0;
+    empty-cells: show;
+    font-size: 0.9em;
+    width: 100%;
+    margin-bottom: 1.1em;
 }
 
-tr,
-td,
-th {
-  margin: 0;
-  padding: 0;
-  border: 0;
-  font-weight: normal;
-  font-style: normal;
-  font-size: 100%;
-  line-height: 1;
-  font-family: inherit;
-  text-align: left;
+tr, td, th {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    font-weight: normal;
+    font-style: normal;
+    font-size: 100%;
+    line-height: 1;
+    font-family: inherit;
+    text-align: left;
 }
 
 table tbody > tr:nth-child(odd) > td {
-  background: #f9f9f9;
+    background: #f9f9f9;
 }
 
-td,
-th {
-  padding: 2%;
-  margin: 0;
-  overflow: visible;
-  line-height: 120%;
-  border-bottom: 1px solid #ddd;
+td, th {
+    padding: 2%;
+    margin: 0;
+    overflow: visible;
+    line-height: 120%;
+    border-bottom: 1px solid #DDD;
 }
