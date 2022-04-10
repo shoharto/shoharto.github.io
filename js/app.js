@@ -7,7 +7,7 @@ new Vue({
       {
         name: "Revenue Monster",
         desc: "Revenue Monster Payment Gateway for Node.js Package",
-        github_url: "shoharto/rm-js-sdk",
+        github_url: "RevenueMonster/rm-js-sdk",
         is_creator: true,
         stars_count: 102,
         forks_count: 44,
